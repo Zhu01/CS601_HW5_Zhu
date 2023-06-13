@@ -1,22 +1,22 @@
 {
-    "my_degrees": [
+    "degrees": [
         {
             "School": "Auburn University",
-            "Program/Major": "Computer Science",
+            "Program": "Computer Science",
             "Type": "BA",
-            "Year conferred": "2020-05"
+            "Year_Conferred": 2020
         },
         {
             "School": "Boston University",
-            "Program/Major": "Computer Science",
+            "Program": "Computer Science",
             "Type": "MS",
-            "Year conferred": "2022-05"
+            "Year_Conferred": 2022
         },
         {
             "School": "Boston University",
-            "Program/Major": "Computer Informatino System",
+            "Program": "Computer Information System",
             "Type": "MS",
-            "Year conferred": "2023-01"
+            "Year_Conferred": 2024
         }
     ]
 }
