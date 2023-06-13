@@ -1,6 +1,6 @@
 document.getElementById("button").onclick = function () {
     // fetch json data
-    fetch("??")
+    fetch("https://zhu01.github.io//degrees.json")
         .then(response => response.json())
         .then(data => {
             // create the table and attach to fetchedData div
