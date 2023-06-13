@@ -1,68 +1,102 @@
+.logo_image {
+  display: block; /*rather than inline */
+  margin: 2rem auto; /* center the logo on the page */
+  width: 120px;
+  height: 120px;
+}
+
 body {
-    background-color: #ddc527; /* the background of all pages should be a dark blue */
-    width: 100%;
-    margin: 0;
+  background-color: #ffea5e; /* the background of all pages should be a dark blue */
+  width: 100%;
+  margin: 0;
 }
 .degree_info_section {
-    margin: auto;
-    width: 80%; /* DO NOT take up full width of the page */
-    text-align: center;
+  margin: auto;
+  width: 80%; /* DO NOT take up full width of the page */
+  text-align: center;
 }
 h1 {
-    color: #36352f;
-    font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
-    font-weight: 900; /* heavier weight for h1 */
-    font-size: 2.5rem;
-    line-height: 2.8rem;
-    letter-spacing: 0.15rem;
-    text-transform: capitalize;
-    margin: 2rem 1rem 0.2rem 1rem;
-    padding: 1rem;
+  color: #36352f;
+  font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 900; /* heavier weight for h1 */
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.15rem;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 p {
-    color: #36352f;
-    font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
-    font-weight: 300; /* lighter weight for paragraphs of text */
-    font-size: 1.2rem;
-    line-height: 1.4rem; /* breathing room between lines */
-    letter-spacing: 0.05rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+  color: #36352f;
+  font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 300; /* lighter weight for paragraphs of text */
+  font-size: 1.2rem;
+  line-height: 1.4rem; /* breathing room between lines */
+  letter-spacing: 0.05rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 /* Style of the button that triggers the program */
 button {
-    color: #36352f;
-    background-color: #E76F51;
-    font-family: "Karla", Helvetica, Arial, "san serif"; /* fallback fonts set */
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.4rem;
-    text-transform: uppercase;
-    margin-top: 1rem; /* add breathing room to top of the button */
-    margin-bottom: 1rem; /* add breathing room to bottom of the button */
-    padding: 1rem;
-    border-style: solid;
-    border-radius: 1.5rem;
-    border-color: #264653;
+  color: #36352f;
+  background-color: #e76f51;
+  font-family: "Karla", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  margin-top: 1rem; /* add breathing room to top of the button */
+  margin-bottom: 1rem; /* add breathing room to bottom of the button */
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 1.5rem;
+  border-color: #264653;
 }
-a {
-    color: #E76F51;
-}
-
 /* Style of the table cells */
-th, td {
-    text-align: left;
-    margin: 3rem;
+th,
+td {
+  text-align: left;
+  margin: 3rem;
+  padding: 0.2cm;
 }
 
 /* Have a bottom border for all table headings */
 th {
-    border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #e76f51;
 }
-
 /* Style of the table */
 table {
-    border-spacing: 1.5rem; /* add breathing room between cells */
-    margin: 0 auto;
+  border-spacing: 1.5rem; /* add breathing room between cells */
+  margin: 0 auto;
+}
+
+/* Style of the page's footer paragraphs */
+footer p {
+  font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 700;
+  text-transform: uppercase; /* make footer copyright more noticeable */
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+/* Style of the footer */
+#footer {
+  color: #e76f51;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* Style of links on the page */
+a {
+  color: #e76f51;
 }
