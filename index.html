@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lingyi's Degrees</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Degrees</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <head>
+      <img src="bachelor.png" alt="a degree icon" class="logo_image" />
+    </head>
     <section class="degree_info_section">
-        <!-- introduces the degrees page and welcomes the site visitor -->
-        <h1>Welcome to the List of Lingyi's Degrees!</h1>
+      <!-- introduces the degrees page and welcomes the site visitor -->
+      <h1>Here is a webpage for Lingyi's Degrees!</h1>
 
-        <!-- explanation of what the application does -->
-        <p id="degree_info">
-            If you want to know more about the Lingyi's degree, 
-            just click the button below to get more information!
-        </p>
+      <!-- explanation of what the application does -->
+      <p id="degree_info">
+        If you want to know more about the Lingyi's degrees, just click the
+        button below to get more information!
+      </p>
+      <div id="container"></div>
+      <div class="btn-wrapper">
+        <button id="btn">Click me to show degrees</button>
+      </div>
 
-        <!-- button that triggers the program, click it to start! -->
-        <button type="button" class="begin_button" onclick="fetchDegreeData()">Click Here!</button>
-
+      <!-- button that triggers the program, click it to start! -->
     </section>
 
-</body>
+    <footer>
+      <!-- a copyright message -->
+      <p>Degree Info Page &copy; Lingyi Zhu</p>
+
+      <!-- credit to icon designer who created the logo -->
+      <div id="footer">
+        Icon Download at
+        <a
+          href="https://www.flaticon.com/"
+          target="_blank"
+          title="Flaticon_Webpage"
+          >www.flaticon.com</a
+        >
+      </div>
+    </footer>
+
+  </body>
 </html>
